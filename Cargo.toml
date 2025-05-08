@@ -2,10 +2,7 @@
 name = "hello_world"
 version = "0.1.0"
 edition = "2021"
-authors = ["Your Name <your.email@example.com>"]
-description = "A simple Hello World application in Rust"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-# No external dependencies needed for this simple app
