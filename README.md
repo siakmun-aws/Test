@@ -1,31 +1,35 @@
-# Rust Hello World Program
+# Rust Hello World
 
-This is a simple "Hello, World!" program written in Rust.
-
-## Prerequisites
-
-- Rust programming language (https://www.rust-lang.org/tools/install)
-
-## How to Run
-
-1. Navigate to the project directory:
-   ```
-   cd /path/to/project
-   ```
-
-2. Build and run the program:
-   ```
-   cargo run
-   ```
-
-## How to Test
-
-Run the tests with:
-```
-cargo test
-```
+A simple Rust program that prints "Hello, World!" 5 times.
 
 ## Project Structure
 
-- `Cargo.toml`: The package manifest file containing metadata and dependencies
-- `src/main.rs`: The main source file containing the hello world program
+- `src/main.rs`: Contains the main Rust code
+- `Cargo.toml`: Rust package configuration file
+- `tests/`: Directory containing test files
+
+## How to Run
+
+```bash
+# Build the project
+cargo build
+
+# Run the program
+cargo run
+```
+
+## Expected Output
+
+```
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+```
+
+## Running Tests
+
+```bash
+cargo test
+```
